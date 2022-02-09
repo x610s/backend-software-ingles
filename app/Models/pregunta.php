@@ -11,6 +11,9 @@ class pregunta extends Model
     //tipo 1 = Texto plano y con una sola respuesta valida
     //tipo 2 = texto plano y con multiples posibilidades
     //tipo 3 = select con una sola respuesta valida;
+    //tipo 4 = voice una sola resp;
+    //tipo 5 = voice muchas resp;
+
     use HasFactory;
     protected $table = "pregunta";
     protected $fillable = [

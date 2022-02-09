@@ -46,5 +46,79 @@ class PosibleRespuestaSeeder extends Seeder
         ]);
         #endregion
 
+         #region posibles respuestas leccion 3
+
+         //a
+         posiblerespuesta::Create([
+            'descripcion' => 'a'
+            ,'pregunta_id' => '17'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => 'ei'
+            ,'pregunta_id' => '17'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => 'hei'
+            ,'pregunta_id' => '17'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => 'hey'
+            ,'pregunta_id' => '17'
+        ]);
+
+
+        //b
+        posiblerespuesta::Create([
+            'descripcion' => "b"
+            ,'pregunta_id' => '18'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "be"
+            ,'pregunta_id' => '18'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "bee"
+            ,'pregunta_id' => '18'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "vi"
+            ,'pregunta_id' => '18'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "ví"
+            ,'pregunta_id' => '18'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "beat"
+            ,'pregunta_id' => '18'
+        ]);
+
+
+        //C
+        posiblerespuesta::Create([
+            'descripcion' => "c"
+            ,'pregunta_id' => '19'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "si"
+            ,'pregunta_id' => '19'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "sí"
+            ,'pregunta_id' => '19'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "see"
+            ,'pregunta_id' => '19'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "ci"
+            ,'pregunta_id' => '19'
+        ]);
+        posiblerespuesta::Create([
+            'descripcion' => "zy"
+            ,'pregunta_id' => '19'
+        ]);
+        #endregion
     }
 }
